@@ -95,7 +95,23 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+section nav {
+  width: 30%;
+  float: left;
+}
 
+section {
+  width: 70%;
+  float: right;
+}
+
+p {
+  color: blue;
+}
+
+footer {
+  float: bottom;
+}
 
 
 
