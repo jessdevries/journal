@@ -95,22 +95,80 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-section nav {
-  width: 30%;
+/* primary color - #f0f0f0
+
+text color - #101010
+
+background color - #520DB2
+
+accent color - #FF9D20
+
+warning color -#14FF2F
+
+error color - #B21209 */
+
+header {
+  padding: 5px;
+  margin: 2%;
+  display: inline-block;
+  min-width: 86%;
+}
+
+nav {
+  width: 20%;
   float: left;
+  border: 2px solid;
+  padding: 5px;
+  margin: 2%;
+  background: gray;
+  /*text-align: center;*/
+
 }
 
 section {
-  width: 70%;
-  float: right;
+  width: 60%;
+  float: left;
+  border: 2px solid;
+  padding: 5px;
+  margin: 2%;
+  background: gray;
 }
 
+
 p {
-  color: blue;
+  color: white;
 }
 
 footer {
-  float: bottom;
+  clear: both;
+  text-align: center;
+}
+
+nav img {
+  clear: both;
+  border: 2px solid;
+
+}
+
+nav li {
+  list-style: none;
+  margin: none;
+}
+
+header h1{
+  float: left;
+}
+
+header a {
+  float: right;
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+p a {
+  text-decoration: none;
+  color: black;
 }
 
 
